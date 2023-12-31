@@ -67,13 +67,6 @@
 # fun = make_multiplier(2.22)
 # print("{}".format(fun(2.22)))
 
-# element_length =  __import__('9-element_length').element_length
-
-# print(element_length.__annotations__)
-
-# safe_first_element =  __import__('100-safe_first_element').safe_first_element
-
-# print(safe_first_element.__annotations__)
 
 safely_get_value = __import__('101-safely_get_value').safely_get_value
 annotations = safely_get_value.__annotations__
