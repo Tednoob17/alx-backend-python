@@ -4,3 +4,6 @@ Duck Typing - first element of a sequence
 """
 from typing import Sequence, Any
 
+
+def safe_first_element(lst: Sequence[Any]) -> Any | None:
+
